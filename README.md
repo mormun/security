@@ -6,25 +6,26 @@ All the tools are included or pre-installed in the Kali Linux distribution.
 ![License](https://img.shields.io/badge/version-2023-green) 
 
 
-# Information Gathering
+# Information Gathering 🔍
 
 ## Dmitry  
+
 Find domain public ip  
 ``
-$ dmitry -w domain  
+$ dmitry -w target  
 ``  
 
 Find information about domain  
 ``
-$ dmitry -i domain  
+$ dmitry -i target  
 ``
 
 Find domain-associated emails  
 ``
-$ dmitry -e domain  
+$ dmitry -e target  
 ``
 
 Find subdomains  
 ``
-$ dmitry -w domain  
+$ dmitry -s target  
 ``
